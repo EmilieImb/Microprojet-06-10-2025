@@ -18,8 +18,13 @@
     
     sourceWidth="800" sourceHeight="600" displayWidth="1280" displayHeight="720">
 
-      
-        <a-marker type='barcode' value='0'>
+    <a-assets>
+      <img id="img1" src="IMG_7241.JPG">
+    </a-assets> 
+    
+       <a-marker type='barcode' value='0'>
+
+            <a-image src="#img1" rotation="270 0 0" width="2" height="2"></a-image>
    
             <a-text value="Em&ms" 
             side="double" position = "0 0 -1" rotation="270 0 0" 
